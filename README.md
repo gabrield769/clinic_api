@@ -100,17 +100,17 @@ Execute novamente a requisição GET do passo (a) e verifique se os novos dados 
 Repita esse fluxo para os outros recursos. Para uma lista completa de todas as rotas, consulte a seção "Endpoints da API" abaixo.
 
 📖 Endpoints da API
-Pacientes:
+1.Pacientes:
 POST /api/patients: Cria um novo paciente.
 Corpo (Body): { "name": "string", "email": "string" }
 GET /api/patients: Lista todos os pacientes.
 
-Médicos:
+2.Médicos:
 POST /api/doctors: Cria um novo médico.
 Corpo (Body): { "name": "string", "specialty": "string" }
 GET /api/doctors: Lista todos os médicos.
 
-Agendamentos:
+3.Agendamentos:
 POST /api/appointments: Cria um novo agendamento.
 Corpo (Body): { "patientId": number, "doctorId": number, "appointmentDate": "Date" }
 GET /api/appointments/doctor/:doctorId: Lista os agendamentos de um médico específico. É necessário informar o ID do médico.
