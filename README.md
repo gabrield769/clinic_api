@@ -99,7 +99,8 @@ c) Confirme a Criação:
 Execute novamente a requisição GET do passo (a) e verifique se os novos dados aparecem na lista.
 Repita esse fluxo para os outros recursos. Para uma lista completa de todas as rotas, consulte a seção "Endpoints da API" abaixo.
 
-📖 Endpoints da API
+📖 Endpoints da API  
+
 
 Pacientes:  
 
@@ -110,6 +111,7 @@ Corpo (Body): { "name": "string", "email": "string" }
 GET /api/patients: Lista todos os pacientes.  
 
 
+
 Médicos  
 
 POST /api/doctors: Cria um novo médico.  
@@ -117,6 +119,7 @@ POST /api/doctors: Cria um novo médico.
 Corpo (Body): { "name": "string", "specialty": "string" }  
 
 GET /api/doctors: Lista todos os médicos.
+
 
 
 Agendamentos:  
