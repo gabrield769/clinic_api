@@ -34,7 +34,7 @@ Para executar este projeto em seu ambiente de desenvolvimento, você precisará 
 
 Siga os passos abaixo para configurar e executar a aplicação em seu ambiente local.
 
-**1. Clone o Repositório**
+1. Clone o Repositório
 
 git clone https://github.com/gabrield769/clinic_api.git
 
@@ -79,8 +79,7 @@ O servidor será iniciado em http://localhost:3000 e reiniciará automaticamente
 🚀 Como Testar a API Online (Produção)
 Se a API já foi publicada em uma plataforma de nuvem, você pode testá-la diretamente pelo seu endereço público na web, sem precisar rodar o projeto localmente.
 
-1. Encontre a https://www.google.com/search?q=URL Base de Produção
-A API está hospedada online e pode ser acessada através da seguinte URL base:
+1. A API está hospedada online e pode ser acessada através da seguinte URL base:
 https://clinic-api-2.onrender.com
 
 2. Utilize um Cliente de API
