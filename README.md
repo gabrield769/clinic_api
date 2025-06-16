@@ -76,8 +76,7 @@ npm run dev
 
 O servidor será iniciado em http://localhost:3000 e reiniciará automaticamente a cada alteração nos arquivos.
 
-🚀 Como Testar a API Online (Produção)
-Se a API já foi publicada em uma plataforma de nuvem, você pode testá-la diretamente pelo seu endereço público na web, sem precisar rodar o projeto localmente.
+🚀 Como Testar a API Online 
 
 1. A API está hospedada online e pode ser acessada através da seguinte URL base:
 https://clinic-api-2.onrender.com
