@@ -112,7 +112,7 @@ GET /api/patients: Lista todos os pacientes.
 
 
 
-Médicos  
+Médicos:  
 
 POST /api/doctors: Cria um novo médico.  
 
