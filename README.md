@@ -105,13 +105,14 @@ POST /api/patients: Cria um novo paciente.
 Corpo (Body): { "name": "string", "email": "string" }
 GET /api/patients: Lista todos os pacientes.
 
-Médicos:\
+Médicos  
 
-POST /api/doctors: Cria um novo médico.\
+POST /api/doctors: Cria um novo médico.  
 
-Corpo (Body): { "name": "string", "specialty": "string" }\
+Corpo (Body): { "name": "string", "specialty": "string" }  
 
-GET /api/doctors: Lista todos os médicos.\
+GET /api/doctors: Lista todos os médicos.
+
 
 
 Agendamentos:
