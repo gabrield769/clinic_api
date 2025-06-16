@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // ou superior como es2020
+    "module": "commonjs",
+    "lib": ["es6"],
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true, // Essencial para TypeORM
+    "emitDecoratorMetadata": true,  // Essencial para TypeORM
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"], // Garante que a pasta src seja incluída
+  "exclude": ["node_modules"]
+}
